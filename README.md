@@ -4,8 +4,8 @@ This project uses ~~CloudFormation~~*Terraform* to deploy a static website to AW
 
 ## Created URL
 
-CloudFront: d17nh59nbz542b.cloudfront.net
-S3 website: static-website-20200529062518738900000001.s3-website-us-west-2.amazonaws.com
+- [CloudFront](d17nh59nbz542b.cloudfront.net)
+- [S3 website](static-website-20200529062518738900000001.s3-website-us-west-2.amazonaws.com)
 
 ## Components
 
