@@ -22,6 +22,7 @@ data "aws_iam_policy_document" "website" {
 resource "aws_s3_bucket" "website" {
   bucket_prefix = "static-website-"
   acl           = "public-read"
+  force_destroy = true
 
   website {
     index_document = "index.html"
