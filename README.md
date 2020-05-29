@@ -37,7 +37,7 @@ To deploy, you need to have Terraform [installed](https://learn.hashicorp.com/te
 
     ```bash
     # the bucket id will be output to console after deploying sucessfully
-    aws s3 cp assets s3://<bucket-id> --recursive
+    aws s3 sync ./assets s3://<bucket-id> --delete
     ```
 
 3. Clean up
