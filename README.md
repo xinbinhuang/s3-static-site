@@ -2,11 +2,6 @@
 
 This project uses ~~CloudFormation~~*Terraform* to deploy a static website to AWS using S3, CloudFront and IAM.
 
-## Created URL
-
-- [CloudFront](d17nh59nbz542b.cloudfront.net)
-- [S3 website](static-website-20200529062518738900000001.s3-website-us-west-2.amazonaws.com)
-
 ## Components
 
 - IAM
@@ -48,6 +43,7 @@ To deploy, you need to have Terraform [installed](https://learn.hashicorp.com/te
 3. Clean up
 
     ```bash
+    # now delete the infrastructure
     terraform destroy
     ```
 
